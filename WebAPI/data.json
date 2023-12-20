@@ -1,0 +1,26 @@
+{
+  "Users": [
+    {
+      "Id": 1,
+      "UserName": "kris1",
+      "Todos": null
+    },
+    {
+      "Id": 2,
+      "UserName": "kris2",
+      "Todos": null
+    }
+  ],
+  "Todos": [
+    {
+      "Id": 1,
+      "Owner": {
+        "Id": 1,
+        "UserName": "kris1",
+        "Todos": null
+      },
+      "Title": "examPrep",
+      "IsCompleted": false
+    }
+  ]
+}
