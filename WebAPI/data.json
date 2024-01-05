@@ -9,6 +9,21 @@
       "Id": 2,
       "UserName": "kris2",
       "Todos": null
+    },
+    {
+      "Id": 3,
+      "UserName": "user2",
+      "Todos": null
+    },
+    {
+      "Id": 4,
+      "UserName": "userOINPOIUNT",
+      "Todos": null
+    },
+    {
+      "Id": 5,
+      "UserName": "bigboy",
+      "Todos": null
     }
   ],
   "Todos": [
@@ -40,6 +55,16 @@
         "Todos": null
       },
       "Title": "string",
+      "IsCompleted": false
+    },
+    {
+      "Id": 4,
+      "Owner": {
+        "Id": 5,
+        "UserName": "bigboy",
+        "Todos": null
+      },
+      "Title": "exam is on the way",
       "IsCompleted": false
     }
   ]

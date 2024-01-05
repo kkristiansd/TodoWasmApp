@@ -8,8 +8,9 @@ var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");
 builder.RootComponents.Add<HeadOutlet>("head::after");
 
-builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:5144") });
+builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:7090") });
 builder.Services.AddScoped<IUserService, UserHttpClient>();
+builder.Services.AddScoped<ITodoService, TodoHttpClient>();
 
 
 await builder.Build().RunAsync();
